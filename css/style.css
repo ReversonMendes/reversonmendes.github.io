@@ -54,12 +54,12 @@ nav .brand-logo {
   color: #444;
 }
 
-p {
+.p {
   line-height: 2rem;
 }
 
 .sidenav-trigger {
-  color: #bec2c2;
+  color: #FB0062;
 }
 
 .parallax-container {
@@ -98,3 +98,31 @@ p {
 footer.page-footer {
   margin: 0;
 }
+
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.progressbar {
+    width: 100%; /* Full width */
+    background-color: #ddd; /* Grey background */
+    height: 20%
+}
+
+.skills {
+    text-align: right; /* Right-align text */
+    padding: 2px; /* Add some padding */
+    color: white; /* White text color */
+}
+
+.html {width: 90%; background-color: #FF353F;}/* Green */
+.css {width: 40%; background-color: #3954AE;} /* Blue */
+.js {width: 70%; background-color: #FF9134;} /* Red */
+.php {width: 60%; background-color: #A625A9;} /* Dark Grey */
+.java{width: 80%; background-color: #00BDD0}
+.powerbuilder{width: 100%; background-color: #009688}
+.angular{width: 70%; background-color: #9D9C9D}
+.nodejs{width: 30%; background-color: #1DAF5C}
+.ionic{width: 75%; background-color: #0098EC}
+.python{width: 5%; background-color: #FB0062}
+.sql{width: 50%; background-color: #000000}
