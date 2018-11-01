@@ -6,6 +6,49 @@
  * Made By MaterializeCSS.com
  */
 
+ #container {
+  padding-left: 300px;
+}
+
+#content {
+  padding: 20px;
+}
+
+@media only screen and (max-width : 992px) {
+  #container {
+    padding-left: 0px;
+  }
+}
+
+.container-curriculo{
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 100%;
+  padding-left: 0px;
+}
+
+.sidenav .user-view{
+  position: relative;
+  padding: 70px 64px 0;
+  margin-bottom: 8px;
+  background: url(https://unsplash.it/1080/720/?random) no-repeat;
+  background-size: cover;
+}
+
+.sidenav .user-view .circle {
+  height: 150px;
+  width: 150px;
+}
+.sidenav .user-view .background {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
 nav ul a,
 nav .brand-logo {
   color: #444;
@@ -16,7 +59,7 @@ p {
 }
 
 .sidenav-trigger {
-  color: #26a69a;
+  color: #bec2c2;
 }
 
 .parallax-container {
