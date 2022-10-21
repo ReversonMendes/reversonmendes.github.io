@@ -6,19 +6,11 @@
  * Made By MaterializeCSS.com
  */
 
- #container {
-  padding-left: 300px;
-}
+
 
 #content {
   padding: 20px;
 }
-
-.body{
-  background-color: #282a36;
-}
-
-.fa-id-card{ color: slateblue; }
 
 @media only screen and (max-width : 992px) {
   #container {
@@ -27,15 +19,18 @@
 }
 
 .menu {
-  background: #545d68;
+  /* background: #ffffff; */
   border-radius: 5%;
-  width: 50px;
+  /* width: 50px; */
   height: 44px;
-  position: fixed;
-  top: 13px;
-  left: 10px;
+  position: absolute;
+  top: 26%;
+  left: 16%;
 }
 
+.mt-name{
+  margin-top: 69px;
+}
 
 .container-curriculo{
   margin: 0 auto;
@@ -77,11 +72,15 @@ nav .brand-logo {
 
 .p {
   line-height: 2rem;
-  color: #ffffff;
+  color: #282a36;
 }
 
 .sidenav-trigger {
-  color: #FB0062;
+  color: #282a36;
+}
+
+.mt-15{
+  margin-top: 15%;
 }
 
 .parallax-container {
@@ -101,6 +100,10 @@ nav .brand-logo {
   }
   #index-banner .section {
     top: 10%;
+  }
+  .menu {
+    top: 32%;
+    left: 4%;
   }
 }
 
