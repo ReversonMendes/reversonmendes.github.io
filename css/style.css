@@ -6,8 +6,6 @@
  * Made By MaterializeCSS.com
  */
 
-
-
 #content {
   padding: 20px;
 }
@@ -25,7 +23,7 @@
   height: 44px;
   position: absolute;
   top: 223px;
-  left: 310px;
+  left: 265px;
 }
 
 .mt-name{
@@ -33,9 +31,9 @@
 }
 
 .container-curriculo{
-  margin: 0 auto;
+  margin: 10px auto;
   max-width: 1280px;
-  width: 100%;
+  width: 50%;
   padding-left: 0px;
 }
 
@@ -106,6 +104,11 @@ nav .brand-logo {
   .menu {
     top: 225px;
     left: 23px;
+  }
+
+  .container-curriculo{
+    margin: 0 auto;
+    width: 100%;
   }
 }
 
